@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>La Casa del Tapiz — Telas, viniles, cuerinas y más</title>
+<meta name="description" content="Telas, viniles, cuerinas, tela de carro, lonas, piso y techo de auto, hilos, talabartería y reata.">
+<meta name="theme-color" content="#0b0b0c">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="topbar">Envío a todas las provincias de Panamá· Cotizaciones por WhatsApp</div>
+
+<header class="site">
+  <div class="container head-row">
+    <a href="#/" class="logo" aria-label="La Casa del Tapiz">
+      <small>La Casa del</small>
+      <strong>Tap<i>i</i>z</strong>
+    </a>
+    <form class="search" id="searchForm" role="search">
+      <input id="searchInput" type="search" placeholder="Buscar telas, viniles, hilos…" aria-label="Buscar">
+      <button type="submit">Buscar</button>
+    </form>
+    <div class="head-actions">
+      <div class="phone-link">Contáctanos<b id="phoneTop"></b></div>
+      <a href="#/favoritos" class="icon-btn" aria-label="Favoritos">♥<span class="badge" id="wishCount">0</span></a>
+    </div>
+  </div>
+  <nav class="main">
+    <div class="container">
+      <ul id="mainNav"></ul>
+    </div>
+  </nav>
+</header>
+
+<main id="app"></main>
+
+<footer class="site">
+  <div class="container foot-grid">
+    <div>
+      <a href="#/" class="logo" style="margin-bottom:10px"><small>La Casa del</small><strong>Tap<i>i</i>z</strong></a>
+      <p style="color:var(--muted);font-size:.9rem">Todo en telas y materiales para tapicería, automotriz y talabartería.</p>
+    </div>
+    <div><h4>Categorías</h4><ul id="footCats"></ul></div>
+    <div><h4>Tienda</h4><ul>
+      <li><a href="#/nosotros">Nosotros</a></li>
+      <li><a href="#/contacto">Contacto</a></li>
+      <li><a href="#/favoritos">Favoritos</a></li>
+    </ul></div>
+    <div><h4>Boletín</h4>
+      <form class="news" id="newsForm"><input type="email" placeholder="Tu correo" required><button>OK</button></form>
+      <ul style="margin-top:14px"><li id="footPhone"></li><li id="footMail"></li></ul>
+    </div>
+  </div>
+  <div class="copy">© <span id="year"></span> La Casa del Tapiz. Todos los derechos reservados.</div>
+</footer>
+
+<a class="wa-float" id="waFloat" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+
+<div id="modalRoot"></div>
+<div class="toast" id="toast"></div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
