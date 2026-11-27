@@ -89,7 +89,6 @@ const ROOF_AUTO_IMAGES = [
 
 const LONA_IMAGES = [
   { src: "Catalogo/imagenes/lonas/lona-plastico-roja.png", name: "Lona de plástico" },
-  { src: "Catalogo/imagenes/lonas/lona-sombrilla-azul.png", name: "Lona sombrilla azul" },
   { src: "Catalogo/imagenes/lonas/lona-sombrilla-verde.png", name: "Lona sombrilla verde" }
 ];
 
